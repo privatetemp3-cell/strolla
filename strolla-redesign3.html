@@ -1,0 +1,2815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Strolla Sea Point | Brunch, Sushi &amp; Cocktails by the Promenade</title>
+  <meta name="description" content="Book a table at Strolla Restaurant &amp; Bar in Sea Point, Cape Town. Enjoy breakfast, brunch, sushi, cocktails and relaxed deck dining near the Sea Point promenade." />
+  <meta name="keywords" content="Strolla Sea Point, Sea Point restaurant, Sea Point brunch, Cape Town brunch, sushi Sea Point, cocktails Sea Point, restaurant near Sea Point promenade, family-friendly restaurant Sea Point" />
+  <link rel="canonical" href="https://strolla.co.za/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Strolla Sea Point | Brunch, Sushi &amp; Cocktails by the Promenade" />
+  <meta property="og:description" content="Book a table at Strolla Restaurant &amp; Bar in Sea Point, Cape Town. Enjoy breakfast, brunch, sushi, cocktails and relaxed deck dining near the Sea Point promenade." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://strolla.co.za/" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=900&q=85&fit=crop" />
+  <meta property="og:locale" content="en_ZA" />
+  <meta property="og:site_name" content="Strolla Restaurant &amp; Bar" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@StrollaCT" />
+  <meta name="twitter:title" content="Strolla Sea Point | Brunch, Sushi &amp; Cocktails by the Promenade" />
+  <meta name="twitter:description" content="Breakfast, brunch, sushi and cocktails beside the Sea Point promenade. Book your table." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=900&q=85&fit=crop" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Strolla Restaurant & Bar",
+    "url": "https://strolla.co.za",
+    "telephone": "+27214307778",
+    "email": "info@strolla.co.za",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "313 Beach Road",
+      "addressLocality": "Sea Point",
+      "postalCode": "8001",
+      "addressRegion": "Western Cape",
+      "addressCountry": "ZA"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -33.9156,
+      "longitude": 18.3871
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "07:00",
+        "closes": "23:00"
+      }
+    ],
+    "servesCuisine": ["Breakfast", "Brunch", "Sushi", "Cocktails", "Seafood"],
+    "priceRange": "RR",
+    "hasMap": "https://goo.gl/maps/MLgmP2tpdFJJKyCz5",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=900&q=85&fit=crop",
+    "description": "A relaxed Cape Town meeting place for sunlit breakfasts, sushi on the deck and easy cocktails near the Atlantic, set just off Beach Road beside the Peninsula All-Suite Hotel.",
+    "amenityFeature": [
+      {"@type": "LocationFeatureSpecification", "name": "Free WiFi", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Outdoor Seating", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Kids Play Area", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Bar", "value": true}
+    ],
+    "sameAs": [
+      "https://www.facebook.com/Strolla-1664641040456249/",
+      "https://www.instagram.com/StrollaCT/",
+      "https://www.twitter.com/StrollaCT"
+    ]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ──────────────────────────────────────────
+       CSS CUSTOM PROPERTIES
+    ────────────────────────────────────────── */
+    :root {
+      --teal:       #1c3a35;
+      --teal-mid:   #254d45;
+      --teal-light: #3a6b60;
+      --cream:      #f5f0e6;
+      --cream-dark: #ede6d6;
+      --sand:       #d9cebc;
+      --gold:       #b8955a;
+      --gold-light: #d4a96a;
+      --charcoal:   #1e1e1e;
+      --warm-grey:  #6b6560;
+      --white:      #ffffff;
+      --font-serif: 'Playfair Display', Georgia, serif;
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-sans:  'Jost', sans-serif;
+      --ease-smooth: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+      --header-h:   72px;
+    }
+
+    /* ──────────────────────────────────────────
+       RESET & BASE
+    ────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      font-family: var(--font-sans);
+      background: var(--cream);
+      color: var(--charcoal);
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { display: block; max-width: 100%; }
+    a { text-decoration: none; color: inherit; }
+    button { cursor: pointer; border: none; background: none; font-family: var(--font-sans); }
+    ul { list-style: none; }
+
+    /* ──────────────────────────────────────────
+       TYPOGRAPHY SYSTEM
+    ────────────────────────────────────────── */
+    .heading-display {
+      font-family: var(--font-display);
+      font-weight: 400;
+      line-height: 1.08;
+      letter-spacing: -0.01em;
+    }
+    .heading-serif {
+      font-family: var(--font-serif);
+      font-weight: 500;
+      line-height: 1.15;
+    }
+    .label-caps {
+      font-family: var(--font-sans);
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+    .body-text {
+      font-family: var(--font-sans);
+      font-weight: 300;
+      line-height: 1.75;
+      color: var(--warm-grey);
+    }
+
+    /* ──────────────────────────────────────────
+       BUTTONS
+    ────────────────────────────────────────── */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.85rem 2rem;
+      border-radius: 2px;
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      transition: all 0.3s var(--ease-smooth);
+    }
+    .btn-primary {
+      background: var(--gold);
+      color: var(--white);
+    }
+    .btn-primary:hover {
+      background: var(--gold-light);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(184, 149, 90, 0.35);
+    }
+    .btn-outline {
+      background: transparent;
+      color: var(--white);
+      border: 1px solid rgba(255,255,255,0.5);
+    }
+    .btn-outline:hover {
+      background: rgba(255,255,255,0.12);
+      border-color: var(--white);
+    }
+    .btn-outline-dark {
+      background: transparent;
+      color: var(--teal);
+      border: 1px solid var(--teal);
+    }
+    .btn-outline-dark:hover {
+      background: var(--teal);
+      color: var(--white);
+    }
+    .btn-teal {
+      background: var(--teal);
+      color: var(--white);
+    }
+    .btn-teal:hover {
+      background: var(--teal-mid);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(28, 58, 53, 0.3);
+    }
+    .btn-sm { padding: 0.6rem 1.4rem; font-size: 0.75rem; }
+
+    /* ──────────────────────────────────────────
+       SECTION STRUCTURE
+    ────────────────────────────────────────── */
+    .section-pad { padding: 6rem 0; }
+    .section-pad-sm { padding: 4rem 0; }
+    .container { max-width: 1180px; margin: 0 auto; padding: 0 2rem; }
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.2rem;
+    }
+    .section-label::before {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 1px;
+      background: var(--gold);
+    }
+    .section-label span { color: var(--gold); }
+
+    /* ──────────────────────────────────────────
+       SCROLL REVEAL
+    ────────────────────────────────────────── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(32px);
+      transition: opacity 0.8s var(--ease-smooth), transform 0.8s var(--ease-smooth);
+    }
+    .reveal.visible { opacity: 1; transform: none; }
+    .reveal-delay-1 { transition-delay: 0.15s; }
+    .reveal-delay-2 { transition-delay: 0.3s; }
+    .reveal-delay-3 { transition-delay: 0.45s; }
+    .reveal-delay-4 { transition-delay: 0.6s; }
+
+    /* ──────────────────────────────────────────
+       HEADER
+    ────────────────────────────────────────── */
+    #site-header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 1000;
+      height: var(--header-h);
+      display: flex;
+      align-items: center;
+      transition: background 0.4s ease, box-shadow 0.4s ease;
+    }
+    #site-header.scrolled {
+      background: var(--teal);
+      box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+    }
+    #site-header .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .header-logo img {
+      height: 44px;
+      width: auto;
+      filter: brightness(0) invert(1);
+    }
+    .header-nav {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+    .header-nav a {
+      color: rgba(255,255,255,0.82);
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    .header-nav a:hover { color: var(--white); }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    /* hamburger */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      padding: 6px;
+    }
+    .hamburger span {
+      display: block;
+      width: 24px;
+      height: 1.5px;
+      background: var(--white);
+      transition: all 0.3s;
+    }
+    .hamburger.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+    /* mobile nav */
+    .mobile-nav {
+      display: none;
+      position: fixed;
+      top: var(--header-h);
+      left: 0; right: 0;
+      background: var(--teal);
+      z-index: 999;
+      padding: 1.5rem 2rem 2rem;
+      transform: translateY(-100%);
+      opacity: 0;
+      transition: transform 0.35s var(--ease-smooth), opacity 0.35s ease;
+    }
+    .mobile-nav.open {
+      display: block;
+      transform: none;
+      opacity: 1;
+    }
+    .mobile-nav a {
+      display: block;
+      color: rgba(255,255,255,0.85);
+      font-size: 1rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 0.9rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .mobile-nav a:last-child { border-bottom: none; }
+    .mobile-nav .btn { margin-top: 1.5rem; width: 100%; justify-content: center; }
+
+    /* ──────────────────────────────────────────
+       HERO
+    ────────────────────────────────────────── */
+    #hero {
+      position: relative;
+      min-height: 100svh;
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+      background: var(--teal);
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      transform: scale(1.08);
+      transition: transform 8s ease-out;
+    }
+    .hero-bg.loaded { transform: scale(1); }
+    .hero-bg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 40%;
+      display: block;
+    }
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to top,
+        rgba(14, 30, 27, 0.88) 0%,
+        rgba(14, 30, 27, 0.45) 50%,
+        rgba(14, 30, 27, 0.2) 100%
+      );
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      padding-bottom: 7rem;
+    }
+    .hero-content .container { display: flex; flex-direction: column; gap: 0; }
+    .hero-location-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      backdrop-filter: blur(8px);
+      color: rgba(255,255,255,0.9);
+      padding: 0.45rem 1.1rem;
+      border-radius: 100px;
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-bottom: 1.8rem;
+      width: fit-content;
+    }
+    .hero-location-chip::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background: var(--gold-light);
+      border-radius: 50%;
+    }
+    .hero-h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2.8rem, 6vw, 5.5rem);
+      font-weight: 400;
+      color: var(--white);
+      line-height: 1.06;
+      letter-spacing: -0.01em;
+      max-width: 820px;
+      margin-bottom: 1.5rem;
+    }
+    .hero-h1 em {
+      font-style: italic;
+      color: var(--gold-light);
+    }
+    .hero-sub {
+      color: rgba(255,255,255,0.75);
+      font-size: 1.05rem;
+      font-weight: 300;
+      line-height: 1.7;
+      max-width: 540px;
+      margin-bottom: 2.4rem;
+    }
+    .hero-ctas {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .hero-micro {
+      color: rgba(255,255,255,0.45);
+      font-size: 0.72rem;
+      font-weight: 400;
+      letter-spacing: 0.08em;
+      margin-top: 1.2rem;
+    }
+
+    /* hero scroll cue */
+    .hero-scroll {
+      position: absolute;
+      bottom: 2.5rem;
+      right: 2.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      color: rgba(255,255,255,0.4);
+      font-size: 0.65rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      writing-mode: vertical-lr;
+      transform: rotate(180deg);
+      z-index: 2;
+    }
+    .hero-scroll::before {
+      content: '';
+      display: block;
+      width: 1px;
+      height: 48px;
+      background: linear-gradient(to bottom, transparent, rgba(255,255,255,0.3));
+      animation: scrollPulse 2s ease-in-out infinite;
+    }
+    @keyframes scrollPulse {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
+
+    /* ──────────────────────────────────────────
+       TRUST STRIP
+    ────────────────────────────────────────── */
+    #trust-strip {
+      background: var(--teal);
+      padding: 0;
+      overflow: hidden;
+    }
+    .trust-inner {
+      display: flex;
+      align-items: stretch;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+    .trust-item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      padding: 2rem 1rem;
+      border-right: 1px solid rgba(255,255,255,0.08);
+      text-align: center;
+      transition: background 0.25s;
+    }
+    .trust-item:last-child { border-right: none; }
+    .trust-item:hover { background: rgba(255,255,255,0.04); }
+    .trust-icon {
+      font-size: 1.4rem;
+      opacity: 0.9;
+    }
+    .trust-label {
+      color: rgba(255,255,255,0.75);
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    /* ──────────────────────────────────────────
+       EXPERIENCE SECTION
+    ────────────────────────────────────────── */
+    #experience { background: var(--cream); }
+    .exp-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: center;
+    }
+    .exp-images {
+      position: relative;
+      height: 560px;
+    }
+    .exp-img-main {
+      position: absolute;
+      top: 0; left: 0;
+      width: 75%;
+      height: 80%;
+      object-fit: cover;
+      /* Replace: /images/strolla-brunch.jpg */
+    }
+    .exp-img-accent {
+      position: absolute;
+      bottom: 0; right: 0;
+      width: 52%;
+      height: 50%;
+      object-fit: cover;
+      border: 6px solid var(--cream);
+      /* Replace: /images/strolla-sea-point-exterior.jpg */
+    }
+    .exp-badge {
+      position: absolute;
+      top: 50%;
+      left: 55%;
+      transform: translate(-50%, -50%);
+      width: 110px;
+      height: 110px;
+      background: var(--gold);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      color: var(--white);
+      z-index: 2;
+      padding: 1rem;
+    }
+    .exp-badge-num {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      font-weight: 600;
+      line-height: 1;
+    }
+    .exp-badge-txt {
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      opacity: 0.9;
+      line-height: 1.3;
+    }
+    .exp-text h2 {
+      font-size: clamp(2rem, 3.5vw, 3rem);
+      color: var(--teal);
+      margin-bottom: 1.5rem;
+    }
+    .exp-text p {
+      font-size: 1.05rem;
+      color: var(--warm-grey);
+      font-weight: 300;
+      line-height: 1.8;
+      margin-bottom: 1.2rem;
+    }
+    .exp-pillars {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.8rem;
+      margin-top: 2rem;
+    }
+    .exp-pillar {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.7rem;
+      padding: 1rem;
+      background: var(--cream-dark);
+    }
+    .exp-pillar-icon { font-size: 1.1rem; margin-top: 1px; }
+    .exp-pillar h4 {
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 0.2rem;
+    }
+    .exp-pillar p {
+      font-size: 0.8rem;
+      color: var(--warm-grey);
+      font-weight: 300;
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    /* ──────────────────────────────────────────
+       MENU SECTION
+    ────────────────────────────────────────── */
+    #menu { background: var(--charcoal); }
+    .menu-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .menu-header h2 {
+      font-size: clamp(2rem, 3.5vw, 3.2rem);
+      color: var(--cream);
+      margin-bottom: 0.8rem;
+    }
+    .menu-header p {
+      color: rgba(255,255,255,0.45);
+      font-size: 0.9rem;
+      font-weight: 300;
+    }
+    /* Tabs */
+    .menu-tabs {
+      display: flex;
+      gap: 0;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      overflow-x: auto;
+      scrollbar-width: none;
+      margin-bottom: 3rem;
+    }
+    .menu-tabs::-webkit-scrollbar { display: none; }
+    .menu-tab {
+      flex-shrink: 0;
+      background: none;
+      color: rgba(255,255,255,0.45);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      padding: 1rem 1.8rem;
+      border-bottom: 2px solid transparent;
+      transition: all 0.25s;
+      cursor: pointer;
+    }
+    .menu-tab:hover { color: rgba(255,255,255,0.75); }
+    .menu-tab.active {
+      color: var(--gold-light);
+      border-bottom-color: var(--gold-light);
+    }
+    /* Panels */
+    .menu-panel { display: none; }
+    .menu-panel.active { display: block; }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1px;
+      background: rgba(255,255,255,0.06);
+    }
+    .menu-item {
+      background: #1a1a1a;
+      padding: 1.5rem;
+      transition: background 0.25s;
+    }
+    .menu-item:hover { background: #222; }
+    .menu-item-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .menu-item-name {
+      font-family: var(--font-serif);
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--cream);
+      line-height: 1.3;
+    }
+    .menu-item-price {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--gold-light);
+      white-space: nowrap;
+    }
+    .menu-item-desc {
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.42);
+      font-weight: 300;
+      line-height: 1.55;
+    }
+    .menu-item-tag {
+      display: inline-block;
+      font-size: 0.62rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.2rem 0.6rem;
+      border-radius: 2px;
+      margin-top: 0.6rem;
+    }
+    .tag-v { background: rgba(74, 144, 74, 0.2); color: #7ec87e; }
+    .tag-new { background: rgba(184, 149, 90, 0.2); color: var(--gold-light); }
+    .tag-popular { background: rgba(212, 169, 106, 0.15); color: var(--gold-light); }
+
+    .menu-section-heading {
+      font-family: var(--font-serif);
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      margin-bottom: 1.2rem;
+      margin-top: 2rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+    .menu-section-heading:first-child { margin-top: 0; }
+
+    .menu-disclaimer {
+      text-align: center;
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255,255,255,0.07);
+      color: rgba(255,255,255,0.3);
+      font-size: 0.78rem;
+      font-style: italic;
+    }
+    .menu-cta-wrap {
+      text-align: center;
+      margin-top: 2.5rem;
+    }
+
+    /* sushi platter grid */
+    .platter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1px;
+      background: rgba(255,255,255,0.06);
+    }
+    .platter-item {
+      background: #1a1a1a;
+      padding: 1.5rem;
+    }
+    .platter-name {
+      font-family: var(--font-serif);
+      font-size: 1rem;
+      color: var(--cream);
+      margin-bottom: 0.3rem;
+    }
+    .platter-pcs {
+      font-size: 0.72rem;
+      color: var(--gold-light);
+      letter-spacing: 0.08em;
+      margin-bottom: 0.5rem;
+    }
+    .platter-price {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--gold-light);
+    }
+    .platter-contents {
+      font-size: 0.78rem;
+      color: rgba(255,255,255,0.35);
+      font-weight: 300;
+      margin-top: 0.4rem;
+      line-height: 1.5;
+    }
+
+    /* ──────────────────────────────────────────
+       BRUNCH / TOURIST SECTION
+    ────────────────────────────────────────── */
+    #brunch {
+      background: var(--teal);
+      position: relative;
+      overflow: hidden;
+    }
+    .brunch-bg-pattern {
+      position: absolute;
+      inset: 0;
+      background-image:
+        radial-gradient(circle at 80% 20%, rgba(255,255,255,0.03) 0%, transparent 50%),
+        radial-gradient(circle at 20% 80%, rgba(184,149,90,0.06) 0%, transparent 50%);
+    }
+    .brunch-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+    .brunch-img-wrap {
+      position: relative;
+    }
+    .brunch-img {
+      width: 100%;
+      height: 520px;
+      object-fit: cover;
+      /* Replace: /images/strolla-brunch.jpg */
+    }
+    .brunch-img-overlay {
+      position: absolute;
+      bottom: -1.5rem;
+      left: -1.5rem;
+      background: var(--gold);
+      color: var(--white);
+      padding: 1.5rem 2rem;
+      max-width: 260px;
+    }
+    .brunch-img-overlay-num {
+      font-family: var(--font-display);
+      font-size: 2.5rem;
+      font-weight: 600;
+      line-height: 1;
+      margin-bottom: 0.3rem;
+    }
+    .brunch-img-overlay-txt {
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      opacity: 0.85;
+    }
+    .brunch-text h2 {
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
+      color: var(--cream);
+      margin-bottom: 1.5rem;
+    }
+    .brunch-text p {
+      color: rgba(255,255,255,0.65);
+      font-weight: 300;
+      line-height: 1.8;
+      margin-bottom: 1.2rem;
+    }
+    .brunch-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin-top: 1.8rem;
+    }
+    .brunch-tag {
+      padding: 0.5rem 1.1rem;
+      border: 1px solid rgba(255,255,255,0.2);
+      color: rgba(255,255,255,0.7);
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      transition: all 0.2s;
+    }
+    .brunch-tag:hover {
+      border-color: var(--gold-light);
+      color: var(--gold-light);
+    }
+
+    /* ──────────────────────────────────────────
+       COCKTAILS SECTION
+    ────────────────────────────────────────── */
+    #cocktails {
+      background: var(--cream-dark);
+      position: relative;
+    }
+    .cocktail-wrap {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 5rem;
+      align-items: center;
+    }
+    .cocktail-text h2 {
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
+      color: var(--teal);
+      margin-bottom: 1.5rem;
+    }
+    .cocktail-text p {
+      color: var(--warm-grey);
+      font-weight: 300;
+      line-height: 1.8;
+      margin-bottom: 1.2rem;
+    }
+    .cocktail-list {
+      margin-top: 1.5rem;
+    }
+    .cocktail-list-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 0.9rem 0;
+      border-bottom: 1px solid var(--sand);
+    }
+    .cocktail-list-item:last-child { border-bottom: none; }
+    .cocktail-name {
+      font-family: var(--font-serif);
+      font-size: 0.95rem;
+      color: var(--teal);
+    }
+    .cocktail-desc {
+      font-size: 0.78rem;
+      color: var(--warm-grey);
+      font-weight: 300;
+      margin-top: 0.15rem;
+    }
+    .cocktail-price {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--gold);
+      white-space: nowrap;
+      margin-left: 1rem;
+    }
+    .cocktail-img {
+      height: 560px;
+      object-fit: cover;
+      width: 100%;
+      /* Replace: /images/strolla-cocktails.jpg */
+    }
+
+    /* ──────────────────────────────────────────
+       FAMILY SECTION
+    ────────────────────────────────────────── */
+    #family { background: var(--cream); }
+    .family-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 5rem;
+      align-items: center;
+    }
+    .family-text h2 {
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
+      color: var(--teal);
+      margin-bottom: 1.2rem;
+    }
+    .family-text p {
+      color: var(--warm-grey);
+      font-weight: 300;
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+    .family-features {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+      margin-top: 1.5rem;
+    }
+    .family-feature {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      font-size: 0.88rem;
+      color: var(--warm-grey);
+      font-weight: 400;
+    }
+    .family-feature::before {
+      content: '';
+      width: 20px;
+      height: 1px;
+      background: var(--gold);
+      flex-shrink: 0;
+    }
+    .family-img-col {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      gap: 1rem;
+      height: 520px;
+    }
+    .family-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /* Replace: /images/strolla-family.jpg  and  /images/strolla-deck.jpg */
+    }
+
+    /* ──────────────────────────────────────────
+       FUNCTIONS SECTION
+    ────────────────────────────────────────── */
+    #functions {
+      background: var(--teal);
+      position: relative;
+      overflow: hidden;
+    }
+    .functions-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+    .functions-text h2 {
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
+      color: var(--cream);
+      margin-bottom: 1.2rem;
+    }
+    .functions-text p {
+      color: rgba(255,255,255,0.65);
+      font-weight: 300;
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+    .functions-types {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.8rem;
+      margin: 2rem 0;
+    }
+    .function-type {
+      padding: 1.2rem 1rem;
+      border: 1px solid rgba(255,255,255,0.12);
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.65);
+      transition: all 0.25s;
+    }
+    .function-type:hover {
+      border-color: var(--gold-light);
+      color: var(--gold-light);
+    }
+    .functions-img {
+      height: 480px;
+      object-fit: cover;
+      width: 100%;
+      /* Replace: /images/strolla-functions.jpg */
+    }
+
+    /* ──────────────────────────────────────────
+       LOCATION
+    ────────────────────────────────────────── */
+    #location { background: var(--cream-dark); }
+    .location-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.4fr;
+      gap: 5rem;
+      align-items: start;
+    }
+    .location-text h2 {
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
+      color: var(--teal);
+      margin-bottom: 1.5rem;
+    }
+    .location-details {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .location-detail-item {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+    .location-detail-icon {
+      font-size: 1rem;
+      margin-top: 2px;
+      flex-shrink: 0;
+    }
+    .location-detail-label {
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.25rem;
+    }
+    .location-detail-value {
+      font-size: 0.9rem;
+      color: var(--charcoal);
+      font-weight: 400;
+      line-height: 1.6;
+    }
+    .location-detail-value a { color: var(--teal); }
+    .location-detail-value a:hover { text-decoration: underline; }
+    .hours-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+    .hours-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.88rem;
+    }
+    .hours-label { font-weight: 500; color: var(--charcoal); }
+    .hours-time { color: var(--warm-grey); font-weight: 300; }
+    .map-embed {
+      height: 420px;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+    }
+    .map-embed iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    .map-placeholder {
+      width: 100%;
+      height: 100%;
+      background: var(--sand);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      color: var(--warm-grey);
+    }
+    .map-placeholder-icon { font-size: 2.5rem; }
+    .map-placeholder-txt {
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    /* ──────────────────────────────────────────
+       FINAL CTA SECTION
+    ────────────────────────────────────────── */
+    #book-cta {
+      background: var(--teal-mid);
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+    }
+    .book-cta-bg {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      opacity: 0.15;
+    }
+    .book-cta-bg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .book-cta-content {
+      position: relative;
+      z-index: 1;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    .book-cta-content h2 {
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      color: var(--cream);
+      margin-bottom: 1.2rem;
+    }
+    .book-cta-content p {
+      color: rgba(255,255,255,0.65);
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1.75;
+      margin-bottom: 2.5rem;
+    }
+    .book-cta-chips {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin-bottom: 2.5rem;
+    }
+    .book-chip {
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.5);
+      padding: 0.4rem 0.9rem;
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 100px;
+    }
+
+    /* ──────────────────────────────────────────
+       FOOTER
+    ────────────────────────────────────────── */
+    #footer {
+      background: var(--charcoal);
+      padding: 4rem 0 2rem;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 3rem;
+      margin-bottom: 3rem;
+    }
+    .footer-brand img {
+      height: 40px;
+      filter: brightness(0) invert(1);
+      margin-bottom: 1.2rem;
+    }
+    .footer-brand p {
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.4);
+      font-weight: 300;
+      line-height: 1.7;
+      max-width: 240px;
+    }
+    .footer-social {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .footer-social-link {
+      width: 36px;
+      height: 36px;
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255,255,255,0.5);
+      font-size: 0.8rem;
+      transition: all 0.25s;
+    }
+    .footer-social-link:hover {
+      border-color: var(--gold-light);
+      color: var(--gold-light);
+    }
+    .footer-col h4 {
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      margin-bottom: 1.2rem;
+    }
+    .footer-col ul { display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col ul li a {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.45);
+      font-weight: 300;
+      transition: color 0.2s;
+    }
+    .footer-col ul li a:hover { color: rgba(255,255,255,0.8); }
+    .footer-col p {
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.4);
+      font-weight: 300;
+      line-height: 1.7;
+    }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.07);
+      padding-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .footer-bottom p {
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.3);
+      font-weight: 300;
+    }
+
+    /* ──────────────────────────────────────────
+       MOBILE FLOATING CTA
+    ────────────────────────────────────────── */
+    .mobile-book-cta {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0; right: 0;
+      z-index: 998;
+      background: var(--gold);
+      padding: 1rem 1.5rem;
+      text-align: center;
+    }
+    .mobile-book-cta a {
+      color: var(--white);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    .mobile-book-cta a span {
+      opacity: 0.65;
+      font-weight: 300;
+      font-size: 0.72rem;
+      margin-left: 0.5rem;
+      letter-spacing: 0.06em;
+      text-transform: none;
+    }
+
+    /* ──────────────────────────────────────────
+       RESPONSIVE
+    ────────────────────────────────────────── */
+    @media (max-width: 1024px) {
+      .exp-grid,
+      .brunch-grid,
+      .cocktail-wrap,
+      .family-grid,
+      .functions-inner,
+      .location-grid { grid-template-columns: 1fr; gap: 3rem; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .exp-images { height: 380px; }
+      .exp-img-main { width: 80%; }
+      .family-img-col { height: 300px; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr; }
+    }
+
+    @media (max-width: 768px) {
+      :root { --header-h: 64px; }
+      .section-pad { padding: 4rem 0; }
+      .header-nav { display: none; }
+      .hamburger { display: flex; }
+      .trust-inner {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border-top: none;
+      }
+      .trust-item:nth-child(3) { border-right: none; }
+      .trust-item:nth-child(4) { border-top: 1px solid rgba(255,255,255,0.08); }
+      .trust-item:nth-child(6) { border-right: none; }
+      .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
+      .mobile-book-cta { display: block; }
+      body { padding-bottom: 60px; }
+      .hero-scroll { display: none; }
+      .exp-images { height: 320px; }
+      .exp-badge { width: 88px; height: 88px; }
+      .exp-badge-num { font-size: 1.4rem; }
+      .exp-pillars { grid-template-columns: 1fr; }
+      .functions-types { grid-template-columns: 1fr; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+      .brunch-img-overlay { position: static; margin-top: 1rem; max-width: none; }
+      .book-cta-chips { display: none; }
+    }
+
+    @media (max-width: 480px) {
+      .trust-inner { grid-template-columns: repeat(2, 1fr); }
+      .trust-item:nth-child(2n) { border-right: none; }
+      .trust-item:nth-child(3) { border-right: 1px solid rgba(255,255,255,0.08); }
+      .trust-item:nth-child(n+3) { border-top: 1px solid rgba(255,255,255,0.08); }
+      .hero-ctas { flex-direction: column; }
+      .hero-ctas .btn { width: 100%; justify-content: center; }
+      .menu-tab { padding: 0.9rem 1.2rem; font-size: 0.67rem; }
+    }
+
+    /* ──────────────────────────────────────────
+       UTILITIES
+    ────────────────────────────────────────── */
+    .text-gold { color: var(--gold); }
+    .text-cream { color: var(--cream); }
+    .mt-1 { margin-top: 0.5rem; }
+    .mt-2 { margin-top: 1rem; }
+    .mt-3 { margin-top: 1.5rem; }
+
+    /* gold divider */
+    .gold-divider {
+      width: 48px;
+      height: 2px;
+      background: var(--gold);
+      margin-bottom: 1.5rem;
+    }
+    .gold-divider-center { margin-left: auto; margin-right: auto; }
+
+    /* image placeholder fallback */
+    .img-placeholder {
+      background: linear-gradient(135deg, #1c3a35 0%, #254d45 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255,255,255,0.2);
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    /* ── Image container gradient fallbacks ─────────────────── */
+    /* These show when external images are blocked (e.g. sandbox CSP) */
+    /* They look intentional and on-brand, not broken */
+
+    .hero-bg {
+      background: linear-gradient(160deg, #0d2620 0%, #1c3a35 45%, #254d45 80%, #1a4a40 100%);
+    }
+    /* Subtle grain texture overlay for hero depth */
+    .hero-bg::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      opacity: 0.6;
+      pointer-events: none;
+    }
+    .exp-img-main {
+      background: linear-gradient(135deg, #1c3a35 0%, #2d5a50 50%, #3a7060 100%);
+      min-height: 300px;
+    }
+    .exp-img-accent {
+      background: linear-gradient(135deg, #c9a96e 0%, #b8955a 50%, #9a7a45 100%);
+      min-height: 200px;
+    }
+    .brunch-img {
+      background: linear-gradient(135deg, #2d4a3e 0%, #1c3a35 40%, #3a6b60 100%);
+    }
+    .cocktail-img {
+      background: linear-gradient(145deg, #1a1a1a 0%, #2a2018 40%, #3d2e12 70%, #2a2018 100%);
+      min-height: 400px;
+    }
+    .family-img:first-child {
+      background: linear-gradient(135deg, #1c3a35 0%, #3a6b60 100%);
+    }
+    .family-img:last-child {
+      background: linear-gradient(135deg, #d9cebc 0%, #c4b89a 100%);
+    }
+    .functions-img {
+      background: linear-gradient(145deg, #0d2620 0%, #1c3a35 40%, #254d45 100%);
+      min-height: 400px;
+    }
+    .book-cta-bg {
+      background: linear-gradient(160deg, #0d2620 0%, #1c3a35 60%, #254d45 100%);
+    }
+
+    /* Decorative geometric overlays for image placeholders */
+    .exp-img-main::after, .brunch-img::after, .cocktail-img::after,
+    .functions-img::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse at 30% 70%, rgba(184,149,90,0.12) 0%, transparent 60%),
+        radial-gradient(ellipse at 80% 20%, rgba(255,255,255,0.04) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    .exp-img-main, .brunch-img, .cocktail-img, .functions-img {
+      position: relative;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<!-- ════════════════════════════════════════
+     HEADER
+════════════════════════════════════════ -->
+<header id="site-header" role="banner">
+  <div class="container">
+    <a class="header-logo" href="#hero" aria-label="Strolla Restaurant & Bar – Home">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 72" role="img" aria-label="Strolla Restaurant &amp; Bar" style="height:42px;width:auto;display:block;">
+  <rect x="1" y="1" width="218" height="70" rx="3" ry="3" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="1"/>
+  <rect x="5" y="5" width="210" height="62" rx="2" ry="2" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.5"/>
+  <line x1="18" y1="22" x2="48" y2="22" stroke="rgba(255,255,255,0.4)" stroke-width="0.5"/>
+  <line x1="172" y1="22" x2="202" y2="22" stroke="rgba(255,255,255,0.4)" stroke-width="0.5"/>
+  <text x="110" y="20" font-family="Georgia,serif" font-size="7.5" font-weight="400" fill="rgba(255,255,255,0.55)" text-anchor="middle" letter-spacing="3">RESTAURANT &amp; BAR</text>
+  <text x="110" y="48" font-family="Georgia,serif" font-size="26" font-weight="400" fill="white" text-anchor="middle" letter-spacing="4">STROLLA</text>
+  <text x="110" y="62" font-family="Georgia,serif" font-size="6.5" font-weight="400" fill="rgba(255,255,255,0.45)" text-anchor="middle" letter-spacing="2.5">SEA POINT · CAPE TOWN</text>
+</svg>
+    </a>
+
+    <nav class="header-nav" aria-label="Main navigation">
+      <a href="#experience">Experience</a>
+      <a href="#menu">Menu</a>
+      <a href="#cocktails">Drinks</a>
+      <a href="#location">Location</a>
+      <a href="#functions">Functions</a>
+    </nav>
+
+    <div class="header-actions">
+      <!-- Replace href with live booking URL -->
+      <a href="https://www.dineplan.com/widgetframe/MwKyFghb"
+         target="_blank" rel="noopener noreferrer"
+         class="btn btn-primary btn-sm"
+         aria-label="Book a table at Strolla">
+        Book a Table
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile navigation -->
+<nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+  <a href="#experience" class="mobile-link">Experience</a>
+  <a href="#menu" class="mobile-link">Menu</a>
+  <a href="#cocktails" class="mobile-link">Drinks</a>
+  <a href="#family" class="mobile-link">Family</a>
+  <a href="#functions" class="mobile-link">Functions</a>
+  <a href="#location" class="mobile-link">Location</a>
+  <a href="https://www.dineplan.com/widgetframe/MwKyFghb"
+     target="_blank" rel="noopener noreferrer"
+     class="btn btn-primary">Book a Table</a>
+</nav>
+
+
+<!-- ════════════════════════════════════════
+     HERO
+════════════════════════════════════════ -->
+<section id="hero" aria-label="Welcome to Strolla">
+  <div class="hero-bg" id="heroBg">
+    <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1600&q=85&fit=crop"
+         alt="Strolla Restaurant deck overlooking the Sea Point promenade"
+         fetchpriority="high"
+         decoding="async"
+         style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 40%;"
+         onerror="this.style.display='none'" />
+    <!-- Decorative SVG pattern — visible when photo is blocked in sandbox preview -->
+    <svg aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;opacity:0.07;pointer-events:none" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <defs><pattern id="g" x="0" y="0" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0L0 0 0 64" fill="none" stroke="white" stroke-width="0.6"/></pattern></defs>
+      <rect width="100%" height="100%" fill="url(#g)"/>
+      <circle cx="22%" cy="55%" r="380" fill="none" stroke="white" stroke-width="0.6" opacity="0.35"/>
+      <circle cx="78%" cy="35%" r="260" fill="none" stroke="white" stroke-width="0.4" opacity="0.25"/>
+    </svg>
+    <!-- Replace: /images/strolla-hero-deck.jpg -->
+  </div>
+  <div class="hero-overlay" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <div class="container">
+      <div class="hero-location-chip" aria-label="Location">
+        313 Beach Road, Sea Point, Cape Town
+      </div>
+
+      <h1 class="hero-h1">
+        Brunch, sushi and cocktails by the<em> Sea Point promenade.</em>
+      </h1>
+
+      <p class="hero-sub">
+        Set just off Beach Road beside the Peninsula All-Suite Hotel, Strolla is a relaxed Cape Town meeting place for sunlit breakfasts, sushi on the deck and easy cocktails near the Atlantic.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="https://www.dineplan.com/widgetframe/MwKyFghb"
+           target="_blank" rel="noopener noreferrer"
+           class="btn btn-primary"
+           aria-label="Book a table at Strolla Sea Point">
+          Book a Table
+        </a>
+        <a href="#menu" class="btn btn-outline">View Menu</a>
+      </div>
+
+      <p class="hero-micro">Open daily from 7am &nbsp;·&nbsp; Reserve in seconds</p>
+    </div>
+  </div>
+
+  <div class="hero-scroll" aria-hidden="true">Scroll</div>
+</section>
+
+
+<!-- ════════════════════════════════════════
+     TRUST STRIP
+════════════════════════════════════════ -->
+<section id="trust-strip" aria-label="Strolla highlights">
+  <div class="trust-inner">
+    <div class="trust-item">
+      <div class="trust-icon" aria-hidden="true">🌊</div>
+      <p class="trust-label">Sea Point Promenade</p>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon" aria-hidden="true">☀️</div>
+      <p class="trust-label">Breakfast &amp; Brunch</p>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon" aria-hidden="true">🍣</div>
+      <p class="trust-label">Sushi &amp; Cocktails</p>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon" aria-hidden="true">🌿</div>
+      <p class="trust-label">Outdoor Deck</p>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon" aria-hidden="true">👨‍👩‍👧</div>
+      <p class="trust-label">Family-Friendly</p>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon" aria-hidden="true">📶</div>
+      <p class="trust-label">Free WiFi</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════════
+     EXPERIENCE SECTION
+════════════════════════════════════════ -->
+<section id="experience" class="section-pad">
+  <div class="container">
+    <div class="exp-grid">
+
+      <!-- Images -->
+      <div class="exp-images reveal">
+        <img class="exp-img-main"
+             src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=900&q=85&fit=crop"
+             alt="Strolla Restaurant interior and deck seating area, Sea Point"
+             loading="lazy"
+             onerror="this.onerror=null;this.style.opacity='0'" />
+        <!-- Replace: /images/strolla-brunch.jpg -->
+
+        <img class="exp-img-accent"
+             src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1400&q=80&fit=crop"
+             alt="Strolla outdoor deck overlooking Sea Point beach road"
+             loading="lazy"
+             onerror="this.onerror=null;this.style.opacity='0'" />
+        <!-- Replace: /images/strolla-sea-point-exterior.jpg -->
+
+        <div class="exp-badge" aria-label="Open from 7am daily">
+          <span class="exp-badge-num">7am</span>
+          <span class="exp-badge-txt">Open daily</span>
+        </div>
+      </div>
+
+      <!-- Text -->
+      <div class="exp-text reveal reveal-delay-2">
+        <div class="section-label">
+          <span class="label-caps text-gold">The Experience</span>
+        </div>
+
+        <h2 class="heading-serif">
+          A relaxed Cape Town meeting place, just off Beach Road.
+        </h2>
+
+        <p class="body-text mt-2">
+          Start with coffee after a promenade walk, settle in for brunch, stay for sushi, or come back later for cocktails on the deck. Strolla is the kind of place that works at any hour — unhurried but never dull.
+        </p>
+        <p class="body-text">
+          Alongside the Peninsula All-Suite Hotel, with the Atlantic within sight, there's a reason locals keep coming back and visitors make it their first stop. The menu spans from honest breakfast plates to proper sushi, craft cocktails and a selection of wines that earn their place on any good afternoon.
+        </p>
+
+        <div class="exp-pillars">
+          <div class="exp-pillar">
+            <div class="exp-pillar-icon">☕</div>
+            <div>
+              <h4>Morning Coffee</h4>
+              <p>Perfect after a walk along the Sea Point promenade</p>
+            </div>
+          </div>
+          <div class="exp-pillar">
+            <div class="exp-pillar-icon">🥗</div>
+            <div>
+              <h4>Brunch &amp; Lunch</h4>
+              <p>From light egg dishes to proper plates and salads</p>
+            </div>
+          </div>
+          <div class="exp-pillar">
+            <div class="exp-pillar-icon">🍱</div>
+            <div>
+              <h4>Fresh Sushi</h4>
+              <p>Maki, roses, nigiri, platters and fresh oysters</p>
+            </div>
+          </div>
+          <div class="exp-pillar">
+            <div class="exp-pillar-icon">🍹</div>
+            <div>
+              <h4>Cocktails &amp; Sundowners</h4>
+              <p>On the deck as the sun drops over the Atlantic</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-3">
+          <a href="https://www.dineplan.com/widgetframe/MwKyFghb"
+             target="_blank" rel="noopener noreferrer"
+             class="btn btn-teal">Book a Table</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════════
+     MENU SECTION
+════════════════════════════════════════ -->
+<section id="menu" class="section-pad">
+  <div class="container">
+
+    <div class="menu-header reveal">
+      <div class="section-label" style="justify-content:center;">
+        <span class="label-caps" style="color:var(--gold-light)">The Menu</span>
+      </div>
+      <h2 class="heading-serif text-cream">Breakfast to cocktails, all day.</h2>
+      <p>A curated selection — please confirm current items and prices with the restaurant.</p>
+    </div>
+
+    <!-- TAB NAVIGATION -->
+    <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+      <button class="menu-tab active" role="tab" aria-selected="true"
+              aria-controls="panel-breakfast" id="tab-breakfast"
+              data-tab="breakfast">Breakfast &amp; Brunch</button>
+      <button class="menu-tab" role="tab" aria-selected="false"
+              aria-controls="panel-mains" id="tab-mains"
+              data-tab="mains">Lunch &amp; Mains</button>
+      <button class="menu-tab" role="tab" aria-selected="false"
+              aria-controls="panel-sushi" id="tab-sushi"
+              data-tab="sushi">Sushi</button>
+      <button class="menu-tab" role="tab" aria-selected="false"
+              aria-controls="panel-cocktails" id="tab-cocktails-menu"
+              data-tab="cocktails-menu">Cocktails &amp; Drinks</button>
+      <button class="menu-tab" role="tab" aria-selected="false"
+              aria-controls="panel-kids" id="tab-kids"
+              data-tab="kids">Kids Menu</button>
+    </div>
+
+    <!-- BREAKFAST PANEL -->
+    <div class="menu-panel active" id="panel-breakfast" role="tabpanel"
+         aria-labelledby="tab-breakfast">
+      <p class="menu-section-heading">Served from 07:00 – 11:15</p>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">English Breakfast</span>
+            <span class="menu-item-price">R155</span>
+          </div>
+          <p class="menu-item-desc">Scrambled, poached or fried eggs, sautéed mushrooms, grilled tomatoes, crispy bacon, baked beans, beef sausage &amp; potato rosti</p>
+          <span class="menu-item-tag tag-popular">Popular</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Strolla Benedict</span>
+            <span class="menu-item-price">from R155</span>
+          </div>
+          <p class="menu-item-desc">Toasted mini croissant topped with bacon (R155) or salmon (R175), wilted spinach, poached egg &amp; hollandaise sauce</p>
+          <span class="menu-item-tag tag-popular">Popular</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Health Omelette</span>
+            <span class="menu-item-price">R125</span>
+          </div>
+          <p class="menu-item-desc">Egg white omelette filled with spring onion, avocado, spinach &amp; parmesan</p>
+          <span class="menu-item-tag tag-v">Vegetarian</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Strolla Omelette</span>
+            <span class="menu-item-price">R95</span>
+          </div>
+          <p class="menu-item-desc">Omelette filled with cheddar cheese, cherry tomatoes &amp; ham. Add avo, bacon, mushroom or spinach</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Breakfast Ciabatinni</span>
+            <span class="menu-item-price">R135</span>
+          </div>
+          <p class="menu-item-desc">Ciabatta filled with bacon, two fried eggs, lettuce, tomato &amp; spicy chips</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Homemade Muesli</span>
+            <span class="menu-item-price">R135</span>
+          </div>
+          <p class="menu-item-desc">Homemade muesli with fresh fruit, Bulgarian yoghurt &amp; honey</p>
+          <span class="menu-item-tag tag-v">Vegetarian</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Egg &amp; Toast</span>
+            <span class="menu-item-price">R70</span>
+          </div>
+          <p class="menu-item-desc">Poached, scrambled, boiled or fried eggs with brown, white or rye bread</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Green Machine Smoothie</span>
+            <span class="menu-item-price">R115</span>
+          </div>
+          <p class="menu-item-desc">Yoghurt, spinach, cucumber, apple &amp; lemon. Also: Strolla Berry (R95), Protein Boost (R95), Maca Boost (R115)</p>
+          <span class="menu-item-tag tag-v">Plant-based</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- MAINS PANEL -->
+    <div class="menu-panel" id="panel-mains" role="tabpanel"
+         aria-labelledby="tab-mains">
+      <p class="menu-section-heading">Starters</p>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Trio of Oysters</span>
+            <span class="menu-item-price">R155</span>
+          </div>
+          <p class="menu-item-desc">Ginger ponzu, tempura &amp; citrus butter, classic mignonette</p>
+          <span class="menu-item-tag tag-popular">Popular</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Kingklip Goujons</span>
+            <span class="menu-item-price">R195</span>
+          </div>
+          <p class="menu-item-desc">Herb crusted with tomato &amp; lime pickle aioli</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Stuffed Calamari Tubes</span>
+            <span class="menu-item-price">R168</span>
+          </div>
+          <p class="menu-item-desc">With burnt dill butter crème</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Greek-Style Mezze Platter</span>
+            <span class="menu-item-price">R455</span>
+          </div>
+          <p class="menu-item-desc">Lamb koftas, smoked chicken satays, grilled prawns, grilled halloumi, artichoke, sweet potato fries &amp; assorted dips</p>
+          <span class="menu-item-tag tag-popular">To Share</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Fish Tacos</span>
+            <span class="menu-item-price">R125</span>
+          </div>
+          <p class="menu-item-desc">Soft tacos with miso marinated white fish &amp; kimchi mayo</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Spicy Nachos</span>
+            <span class="menu-item-price">R175</span>
+          </div>
+          <p class="menu-item-desc">Topped with feta, peppered cream cheese, tomato chutney &amp; guacamole. Add chicken or pulled pork</p>
+        </div>
+      </div>
+
+      <p class="menu-section-heading">Mains</p>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Norwegian Salmon</span>
+            <span class="menu-item-price">R320</span>
+          </div>
+          <p class="menu-item-desc">With asparagus, nori butter &amp; soft poached egg</p>
+          <span class="menu-item-tag tag-popular">Popular</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Grilled Prawns</span>
+            <span class="menu-item-price">from R198</span>
+          </div>
+          <p class="menu-item-desc">With garlic butter &amp; peri peri sauce</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Seafood Platter</span>
+            <span class="menu-item-price">R445</span>
+          </div>
+          <p class="menu-item-desc">Prawns, kingklip, mussels, calamari &amp; squid tentacles</p>
+          <span class="menu-item-tag tag-popular">To Share</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Tuna Niçoise</span>
+            <span class="menu-item-price">R285</span>
+          </div>
+          <p class="menu-item-desc">Seared tuna &amp; salsa verde</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">300g Fillet</span>
+            <span class="menu-item-price">R365</span>
+          </div>
+          <p class="menu-item-desc">Served with sauce &amp; side of your choice</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Beef or Chicken Burger</span>
+            <span class="menu-item-price">R180</span>
+          </div>
+          <p class="menu-item-desc">Topped with mature cheddar. Add bacon, caramelised onions, avo, fried egg or jalapeño</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Artichoke &amp; Ricotta Ravioli</span>
+            <span class="menu-item-price">R185</span>
+          </div>
+          <p class="menu-item-desc">With spinach purée, burnt sage butter &amp; roasted pine nuts</p>
+          <span class="menu-item-tag tag-v">Vegetarian</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Caesar Salad</span>
+            <span class="menu-item-price">R135</span>
+          </div>
+          <p class="menu-item-desc">Shaved parmesan, garlic croutons &amp; crispy bacon. Add chicken +R55 or prawn +R90</p>
+        </div>
+      </div>
+
+      <p class="menu-section-heading">Desserts</p>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Surprise Cheesecake</span>
+            <span class="menu-item-price">R95</span>
+          </div>
+          <p class="menu-item-desc">Ask your waiter for today's selection</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Key Lime Pie</span>
+            <span class="menu-item-price">R125</span>
+          </div>
+          <p class="menu-item-desc">With tequila gelato</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Piña Colada Tart</span>
+            <span class="menu-item-price">R110</span>
+          </div>
+          <p class="menu-item-desc">Drunken tart with pineapple crisps</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Chocolate Trio</span>
+            <span class="menu-item-price">R95</span>
+          </div>
+          <p class="menu-item-desc">Belgian chocolate dessert three ways</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SUSHI PANEL -->
+    <div class="menu-panel" id="panel-sushi" role="tabpanel"
+         aria-labelledby="tab-sushi">
+      <p class="menu-section-heading">Individual Pieces &amp; Rolls</p>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Maki (6 pcs)</span>
+            <span class="menu-item-price">from R95</span>
+          </div>
+          <p class="menu-item-desc">Salmon, Tuna or Prawn R95 &nbsp;|&nbsp; Avo R60</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">California (8 pcs)</span>
+            <span class="menu-item-price">from R95</span>
+          </div>
+          <p class="menu-item-desc">Salmon, Tuna or Prawn R115 &nbsp;|&nbsp; Veg R95</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Roses (5 pcs)</span>
+            <span class="menu-item-price">R130</span>
+          </div>
+          <p class="menu-item-desc">Salmon or Tuna</p>
+          <span class="menu-item-tag tag-popular">Popular</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Signature Roses (4 pcs)</span>
+            <span class="menu-item-price">R165</span>
+          </div>
+          <p class="menu-item-desc">Prawn &amp; Salmon</p>
+          <span class="menu-item-tag tag-popular">Popular</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Nigiri (4 pcs)</span>
+            <span class="menu-item-price">R110</span>
+          </div>
+          <p class="menu-item-desc">Salmon, Tuna or Prawn</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Sashimi (4 pcs)</span>
+            <span class="menu-item-price">R145</span>
+          </div>
+          <p class="menu-item-desc">Salmon or Tuna</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Rainbow Roll (8 pcs)</span>
+            <span class="menu-item-price">R125</span>
+          </div>
+          <p class="menu-item-desc">Tuna</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Fresh Oysters</span>
+            <span class="menu-item-price">R40 each</span>
+          </div>
+          <p class="menu-item-desc">The Mussel Monger™ premium large oysters with classic mignonette</p>
+          <span class="menu-item-tag tag-popular">Popular</span>
+        </div>
+      </div>
+
+      <p class="menu-section-heading">Sushi Platters</p>
+      <div class="platter-grid">
+        <div class="platter-item">
+          <div class="platter-name">Hiroshima</div>
+          <div class="platter-pcs">16 pieces</div>
+          <div class="platter-price">R295</div>
+          <div class="platter-contents">Maki · California · Roses · Sashimi · Nigiri</div>
+        </div>
+        <div class="platter-item">
+          <div class="platter-name">Kawasaki</div>
+          <div class="platter-pcs">12 pieces</div>
+          <div class="platter-price">R295</div>
+          <div class="platter-contents">Rainbow · Roses · Sashimi</div>
+        </div>
+        <div class="platter-item">
+          <div class="platter-name">Kobe</div>
+          <div class="platter-pcs">24 pieces</div>
+          <div class="platter-price">R440</div>
+          <div class="platter-contents">Maki · California · Roses · Nigiri</div>
+        </div>
+        <div class="platter-item">
+          <div class="platter-name">Kyoto</div>
+          <div class="platter-pcs">12 pieces</div>
+          <div class="platter-price">R395</div>
+          <div class="platter-contents">Bamboo · Signature Roses · Spider</div>
+        </div>
+        <div class="platter-item">
+          <div class="platter-name">Osaka</div>
+          <div class="platter-pcs">30 pieces</div>
+          <div class="platter-price">from R520</div>
+          <div class="platter-contents">Maki · California · Roses · Sashimi · Nigiri · Rainbow</div>
+        </div>
+        <div class="platter-item">
+          <div class="platter-name">Tokyo</div>
+          <div class="platter-pcs">60 pieces</div>
+          <div class="platter-price">from R1,100</div>
+          <div class="platter-contents">Maki · California · Roses · Nigiri · Rainbow — perfect for groups</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- COCKTAILS MENU PANEL -->
+    <div class="menu-panel" id="panel-cocktails-menu" role="tabpanel"
+         aria-labelledby="tab-cocktails-menu">
+      <p class="menu-section-heading">Cocktails</p>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Aperol Spritz</span>
+            <span class="menu-item-price">R110</span>
+          </div>
+          <p class="menu-item-desc">Aperol, sparkling wine &amp; Schweppes soda with an orange slice</p>
+          <span class="menu-item-tag tag-popular">Popular</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Strolla Fizz</span>
+            <span class="menu-item-price">R115</span>
+          </div>
+          <p class="menu-item-desc">Tanqueray Gin shaken with grapefruit juice, served over ice with Fitch &amp; Leedes tonic</p>
+          <span class="menu-item-tag tag-new">House Special</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Mojito</span>
+            <span class="menu-item-price">R115</span>
+          </div>
+          <p class="menu-item-desc">Havana Club rum, fresh mint, fresh lime &amp; soda water</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Porn Star Martini</span>
+            <span class="menu-item-price">R150</span>
+          </div>
+          <p class="menu-item-desc">Cîroc vodka, passion fruit liqueur, lime, served with a side of brut</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Margarita</span>
+            <span class="menu-item-price">R95</span>
+          </div>
+          <p class="menu-item-desc">Jose Cuervo Reposado, lime juice &amp; triple sec — short on ice or frozen</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Strawberry Daiquiri</span>
+            <span class="menu-item-price">R110</span>
+          </div>
+          <p class="menu-item-desc">Havana Club rum spun frozen with strawberry purée &amp; lime juice</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Sunset Derby</span>
+            <span class="menu-item-price">R115</span>
+          </div>
+          <p class="menu-item-desc">Johnnie Walker Black, grapefruit, honey with bitters</p>
+          <span class="menu-item-tag tag-new">Signature</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Piña Colada</span>
+            <span class="menu-item-price">R110</span>
+          </div>
+          <p class="menu-item-desc">Havana Club rum blended with coconut &amp; pineapple purée, cream &amp; fresh pineapple</p>
+        </div>
+      </div>
+
+      <p class="menu-section-heading">Spirits by the tot (highlights)</p>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Gin Selection</span>
+            <span class="menu-item-price">from R28</span>
+          </div>
+          <p class="menu-item-desc">Tanqueray, Inverroche Classic/Amber/Verdant, Monkey 47, Malfy, Beefeater &amp; more</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Whisky &amp; Bourbon</span>
+            <span class="menu-item-price">from R38</span>
+          </div>
+          <p class="menu-item-desc">Johnnie Walker range, Glenfiddich, Glenlivet, Woodford Reserve, Bulleit Bourbon &amp; more</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Tequila</span>
+            <span class="menu-item-price">from R45</span>
+          </div>
+          <p class="menu-item-desc">Don Julio, Casamigos, Espolòn &amp; Jose Cuervo Tradicional</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Wine &amp; Sake</span>
+            <span class="menu-item-price">ask your waiter</span>
+          </div>
+          <p class="menu-item-desc">Wine list available on request. Japanese sake: Hakushika, Tokara Imo &amp; Tokara Mugi</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- KIDS PANEL -->
+    <div class="menu-panel" id="panel-kids" role="tabpanel"
+         aria-labelledby="tab-kids">
+      <p class="menu-section-heading">Little ones</p>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">The Dogfather</span>
+            <span class="menu-item-price">R100</span>
+          </div>
+          <p class="menu-item-desc">Hot dog with chips &amp; ketchup</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Chicken Strips &amp; Chips</span>
+            <span class="menu-item-price">R105</span>
+          </div>
+          <p class="menu-item-desc">Strips of chicken breast, crumbed &amp; fried</p>
+          <span class="menu-item-tag tag-popular">Most Ordered</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Burger King</span>
+            <span class="menu-item-price">R105</span>
+          </div>
+          <p class="menu-item-desc">Beef burger with cheddar cheese on a sesame bun with fries</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Papas Pizza</span>
+            <span class="menu-item-price">R75</span>
+          </div>
+          <p class="menu-item-desc">Two-cheese margherita pizza</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Build-Your-Own Pizza</span>
+            <span class="menu-item-price">R100</span>
+          </div>
+          <p class="menu-item-desc">Roll out your own base &amp; add your favourite toppings — great for kids</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Mac 'n Cheese</span>
+            <span class="menu-item-price">R75</span>
+          </div>
+          <p class="menu-item-desc">With a crispy cheese crust</p>
+          <span class="menu-item-tag tag-v">Veggie</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Kids Waffle</span>
+            <span class="menu-item-price">from R60</span>
+          </div>
+          <p class="menu-item-desc">Served with vanilla ice-cream &amp; chocolate sauce</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <span class="menu-item-name">Milkshakes</span>
+            <span class="menu-item-price">from R50</span>
+          </div>
+          <p class="menu-item-desc">Bubblegum, chocolate, strawberry, lime, banana or vanilla</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="menu-disclaimer">
+      ✦ Menu items and prices may change. Please confirm with the restaurant before ordering.
+    </p>
+    <div class="menu-cta-wrap">
+      <a href="https://www.dineplan.com/widgetframe/MwKyFghb"
+         target="_blank" rel="noopener noreferrer"
+         class="btn btn-primary">Reserve Your Table</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════════
+     BRUNCH / TOURIST SECTION
+════════════════════════════════════════ -->
+<section id="brunch" class="section-pad">
+  <div class="container">
+    <div class="brunch-grid">
+
+      <div class="brunch-img-wrap reveal">
+        <img class="brunch-img"
+             src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=900&q=85&fit=crop"
+             alt="Sunlit brunch at Strolla Sea Point, Cape Town"
+             loading="lazy"
+             onerror="this.style.background='linear-gradient(135deg,#254d45,#1c3a35)'" />
+        <!-- Replace: /images/strolla-brunch.jpg -->
+
+        <div class="brunch-img-overlay">
+          <div class="brunch-img-overlay-num">313</div>
+          <div class="brunch-img-overlay-txt">Beach Road, Sea Point</div>
+        </div>
+      </div>
+
+      <div class="brunch-text reveal reveal-delay-2">
+        <div class="section-label">
+          <span class="label-caps" style="color:rgba(255,255,255,0.45)">For Tourists &amp; Brunch Lovers</span>
+        </div>
+        <h2 class="heading-serif">
+          Made for slow mornings, promenade walks &amp; Cape Town afternoons.
+        </h2>
+        <p>
+          If you're staying nearby in Sea Point, Bantry Bay or Green Point, Strolla is the obvious answer to "where should we eat?" Walk the promenade, work up an appetite, and settle in for a proper spread.
+        </p>
+        <p>
+          The deck catches the Atlantic breeze. The coffee is good. The brunch menu has enough range to keep everyone at the table happy — from a simple egg &amp; toast to a full English or a loaded omelette.
+        </p>
+        <p>
+          After brunch, you're a short stroll from the beach, the tidal pools and the promenade. Come back for sushi in the afternoon and cocktails as the sun dips west. That's a good Cape Town day.
+        </p>
+
+        <div class="brunch-tags">
+          <span class="brunch-tag">Near the promenade</span>
+          <span class="brunch-tag">Sea views</span>
+          <span class="brunch-tag">Open 7am daily</span>
+          <span class="brunch-tag">Outdoor seating</span>
+          <span class="brunch-tag">Free WiFi</span>
+          <span class="brunch-tag">All-day dining</span>
+        </div>
+
+        <div class="mt-3">
+          <a href="https://www.dineplan.com/widgetframe/MwKyFghb"
+             target="_blank" rel="noopener noreferrer"
+             class="btn btn-outline">Book a Table</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════════
+     COCKTAILS SECTION
+════════════════════════════════════════ -->
+<section id="cocktails" class="section-pad">
+  <div class="container">
+    <div class="cocktail-wrap">
+
+      <div class="cocktail-text reveal">
+        <div class="section-label">
+          <span class="label-caps text-gold">Drinks &amp; Sundowners</span>
+        </div>
+        <h2 class="heading-serif" style="color:var(--teal)">
+          Sea Point mornings. Sushi afternoons. Cocktails after dark.
+        </h2>
+        <p class="body-text">
+          The bar at Strolla earns its place. A considered list of cocktails, a well-stocked spirits selection, South African wines, craft beers and local ciders — served at a pace that suits where you are.
+        </p>
+        <p class="body-text">
+          Whether it's an Aperol Spritz on arrival, a house Strolla Fizz alongside sushi on the deck, or a Johnnie Walker Sunset Derby as the light changes over the Atlantic, the drinks here are grown-up without being pretentious.
+        </p>
+
+        <div class="cocktail-list" aria-label="Featured cocktails">
+          <div class="cocktail-list-item">
+            <div>
+              <div class="cocktail-name">Aperol Spritz</div>
+              <div class="cocktail-desc">Aperol, sparkling wine &amp; soda, orange slice</div>
+            </div>
+            <span class="cocktail-price">R110</span>
+          </div>
+          <div class="cocktail-list-item">
+            <div>
+              <div class="cocktail-name">Strolla Fizz</div>
+              <div class="cocktail-desc">Tanqueray Gin, grapefruit, Fitch &amp; Leedes tonic</div>
+            </div>
+            <span class="cocktail-price">R115</span>
+          </div>
+          <div class="cocktail-list-item">
+            <div>
+              <div class="cocktail-name">Mojito</div>
+              <div class="cocktail-desc">Havana Club rum, fresh mint, fresh lime, soda</div>
+            </div>
+            <span class="cocktail-price">R115</span>
+          </div>
+          <div class="cocktail-list-item">
+            <div>
+              <div class="cocktail-name">Sunset Derby</div>
+              <div class="cocktail-desc">Johnnie Walker Black, grapefruit, honey, bitters</div>
+            </div>
+            <span class="cocktail-price">R115</span>
+          </div>
+          <div class="cocktail-list-item">
+            <div>
+              <div class="cocktail-name">Porn Star Martini</div>
+              <div class="cocktail-desc">Cîroc vodka, passion fruit, lime, brut</div>
+            </div>
+            <span class="cocktail-price">R150</span>
+          </div>
+        </div>
+
+        <div class="mt-3">
+          <a href="#menu" class="btn btn-outline-dark btn-sm">See Full Drinks Menu</a>
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-2">
+        <img class="cocktail-img"
+             src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=900&q=85&fit=crop"
+             alt="Cocktails and drinks at Strolla Bar, Sea Point Cape Town"
+             loading="lazy"
+             onerror="this.style.background='linear-gradient(135deg,#d9cebc,#c4b89a)'" />
+        <!-- Replace: /images/strolla-cocktails.jpg -->
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════════
+     FAMILY SECTION
+════════════════════════════════════════ -->
+<section id="family" class="section-pad" style="background:var(--cream-dark)">
+  <div class="container">
+    <div class="family-grid">
+
+      <div class="family-text reveal">
+        <div class="section-label">
+          <span class="label-caps text-gold">Family-Friendly</span>
+        </div>
+        <h2 class="heading-serif" style="color:var(--teal)">
+          The grown-up restaurant that families also love.
+        </h2>
+        <p class="body-text">
+          Strolla is not a children's restaurant — but it is unambiguously family-friendly. The kids' menu is considered, the play area keeps little ones engaged, and the deck &amp; dining room hold their own as a proper restaurant and bar experience for the adults.
+        </p>
+        <p class="body-text">
+          It's the kind of place where parents can have a real lunch while the children are entertained, rather than rushing through a meal. Good food, a relaxed atmosphere and a table worth sitting at for a while.
+        </p>
+        <p class="body-text" style="font-size:0.8rem; font-style:italic;">
+          Kids under 10 welcome in the play area. Parents required to sign an indemnity.
+        </p>
+
+        <div class="family-features">
+          <div class="family-feature">Dedicated kids' play area</div>
+          <div class="family-feature">Separate kids' menu from R75</div>
+          <div class="family-feature">Milkshakes, waffles &amp; build-your-own pizza</div>
+          <div class="family-feature">Relaxed, unhurried atmosphere</div>
+          <div class="family-feature">Outdoor deck seating</div>
+          <div class="family-feature">Free WiFi throughout</div>
+        </div>
+
+        <div class="mt-3">
+          <a href="https://www.dineplan.com/widgetframe/MwKyFghb"
+             target="_blank" rel="noopener noreferrer"
+             class="btn btn-teal">Book a Family Table</a>
+        </div>
+      </div>
+
+      <div class="family-img-col reveal reveal-delay-2">
+        <img class="family-img"
+             src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&q=85&fit=crop"
+             alt="Strolla Restaurant outdoor deck area, Sea Point"
+             loading="lazy"
+             onerror="this.style.background='linear-gradient(135deg,#1c3a35,#3a6b60)'" />
+        <!-- Replace: /images/strolla-deck.jpg -->
+        <img class="family-img"
+             src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=900&q=85&fit=crop"
+             alt="Strolla Restaurant interior, family-friendly dining Sea Point"
+             loading="lazy"
+             onerror="this.style.background='linear-gradient(135deg,#d9cebc,#c4b89a)'" />
+        <!-- Replace: /images/strolla-interior.jpg -->
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════════
+     FUNCTIONS SECTION
+════════════════════════════════════════ -->
+<section id="functions" class="section-pad">
+  <div class="container">
+    <div class="functions-inner">
+
+      <div class="functions-text reveal">
+        <div class="section-label">
+          <span class="label-caps" style="color:rgba(255,255,255,0.45)">Group Bookings &amp; Functions</span>
+        </div>
+        <h2 class="heading-serif text-cream">
+          From birthday brunches to group sundowners.
+        </h2>
+        <p style="color:rgba(255,255,255,0.6); font-weight:300; line-height:1.8; margin-bottom:1rem;">
+          Strolla works well for groups. Whether it's a casual birthday brunch, a team lunch, a private gathering or hotel guests looking to arrange a dinner out, we accommodate groups with the same relaxed approach that defines the restaurant.
+        </p>
+        <p style="color:rgba(255,255,255,0.6); font-weight:300; line-height:1.8;">
+          Get in touch directly and we'll work out the details — from a simple table booking to a curated menu.
+        </p>
+
+        <div class="functions-types">
+          <div class="function-type">Birthday Brunches</div>
+          <div class="function-type">Team Lunches</div>
+          <div class="function-type">Hotel Group Dinners</div>
+          <div class="function-type">Casual Celebrations</div>
+          <div class="function-type">Sushi &amp; Drinks Events</div>
+          <div class="function-type">Private Deck Gatherings</div>
+        </div>
+
+        <a href="mailto:info@strolla.co.za?subject=Group%20Booking%20Enquiry"
+           class="btn btn-primary">Enquire About a Group Booking</a>
+      </div>
+
+      <div class="reveal reveal-delay-2">
+        <img class="functions-img"
+             src="https://images.unsplash.com/photo-1544148103-0773bf10d330?w=900&q=85&fit=crop"
+             alt="Private dining and group gatherings at Strolla Sea Point"
+             loading="lazy"
+             onerror="this.style.background='linear-gradient(135deg,#3a6b60,#254d45)'" />
+        <!-- Replace: /images/strolla-functions.jpg -->
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════════
+     LOCATION SECTION
+════════════════════════════════════════ -->
+<section id="location" class="section-pad">
+  <div class="container">
+    <div class="section-label reveal">
+      <span class="label-caps text-gold">Find Us</span>
+    </div>
+    <h2 class="heading-serif reveal reveal-delay-1" style="color:var(--teal); font-size:clamp(1.8rem,3vw,2.8rem); margin-bottom:3rem;">
+      Beside the Peninsula All-Suite Hotel,<br>just off the Sea Point promenade.
+    </h2>
+
+    <div class="location-grid">
+
+      <div class="location-details reveal">
+        <div class="location-detail-item">
+          <div class="location-detail-icon">📍</div>
+          <div>
+            <div class="location-detail-label">Address</div>
+            <div class="location-detail-value">
+              313 Beach Road, Sea Point<br>
+              Cape Town, 8001<br>South Africa
+            </div>
+          </div>
+        </div>
+
+        <div class="location-detail-item">
+          <div class="location-detail-icon">🕐</div>
+          <div>
+            <div class="location-detail-label">Trading Hours</div>
+            <div class="location-detail-value">
+              <div class="hours-grid">
+                <div class="hours-row">
+                  <span class="hours-label">Café</span>
+                  <span class="hours-time">7:00 – 19:00</span>
+                </div>
+                <div class="hours-row">
+                  <span class="hours-label">Restaurant</span>
+                  <span class="hours-time">7:00 – 23:00</span>
+                </div>
+                <div class="hours-row">
+                  <span class="hours-label">Bar</span>
+                  <span class="hours-time">11:00 – 23:00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-detail-item">
+          <div class="location-detail-icon">📞</div>
+          <div>
+            <div class="location-detail-label">Phone</div>
+            <div class="location-detail-value">
+              <a href="tel:+27214307778">021 430 7778</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-detail-item">
+          <div class="location-detail-icon">✉️</div>
+          <div>
+            <div class="location-detail-label">Email</div>
+            <div class="location-detail-value">
+              <a href="mailto:info@strolla.co.za">info@strolla.co.za</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-2">
+          <a href="https://goo.gl/maps/MLgmP2tpdFJJKyCz5"
+             target="_blank" rel="noopener noreferrer"
+             class="btn btn-outline-dark btn-sm">
+            Open in Google Maps
+          </a>
+        </div>
+      </div>
+
+      <div class="map-embed reveal reveal-delay-2">
+        <!-- Google Maps embed — replace src with your actual embed URL -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.9!2d18.3871!3d-33.9156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc675b1a1e7b1b%3A0x0!2sStrolla+Restaurant+%26+Bar!5e0!3m2!1sen!2sza!4v1"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Strolla Restaurant & Bar location map, 313 Beach Road Sea Point Cape Town"
+          style="filter: saturate(0.8) contrast(1.05);">
+        </iframe>
+        <!-- If embed fails, this fallback renders -->
+        <noscript>
+          <a href="https://goo.gl/maps/MLgmP2tpdFJJKyCz5" target="_blank">
+            View Strolla on Google Maps
+          </a>
+        </noscript>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════════
+     FINAL BOOKING CTA
+════════════════════════════════════════ -->
+<section id="book-cta" class="section-pad">
+  <div class="book-cta-bg" aria-hidden="true">
+    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1400&q=80&fit=crop"
+         alt=""
+        
+         loading="lazy"
+         decoding="async" onerror="this.onerror=null;this.style.opacity='0'" />
+    <!-- Replace: /images/strolla-atmosphere.jpg -->
+  </div>
+  <div class="container">
+    <div class="book-cta-content reveal">
+      <div class="section-label" style="justify-content:center;">
+        <span class="label-caps" style="color:rgba(255,255,255,0.4)">Sea Point, Cape Town</span>
+      </div>
+      <h2 class="heading-serif">
+        Book your table at Strolla Sea Point.
+      </h2>
+      <p>
+        Whether it's coffee after a morning walk, a long brunch, sushi on the deck or cocktails near the promenade — your table is a few taps away.
+      </p>
+
+      <div class="book-cta-chips">
+        <span class="book-chip">Open from 7am daily</span>
+        <span class="book-chip">Breakfast, sushi &amp; cocktails</span>
+        <span class="book-chip">Deck seating</span>
+        <span class="book-chip">Reserve in seconds</span>
+      </div>
+
+      <a href="https://www.dineplan.com/widgetframe/MwKyFghb"
+         target="_blank" rel="noopener noreferrer"
+         class="btn btn-primary"
+         style="font-size:0.85rem; padding:1rem 2.5rem;">
+        Book a Table
+      </a>
+
+      <p style="color:rgba(255,255,255,0.3); font-size:0.75rem; margin-top:1.2rem;">
+        Or call us: <a href="tel:+27214307778" style="color:rgba(255,255,255,0.45);">021 430 7778</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════ -->
+<footer id="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 72" role="img" aria-label="Strolla Restaurant &amp; Bar" style="height:36px;width:auto;display:block;margin-bottom:1.2rem;">
+  <rect x="1" y="1" width="218" height="70" rx="3" ry="3" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <rect x="5" y="5" width="210" height="62" rx="2" ry="2" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/>
+  <line x1="18" y1="22" x2="48" y2="22" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+  <line x1="172" y1="22" x2="202" y2="22" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+  <text x="110" y="20" font-family="Georgia,serif" font-size="7.5" font-weight="400" fill="rgba(255,255,255,0.4)" text-anchor="middle" letter-spacing="3">RESTAURANT &amp; BAR</text>
+  <text x="110" y="48" font-family="Georgia,serif" font-size="26" font-weight="400" fill="white" text-anchor="middle" letter-spacing="4">STROLLA</text>
+  <text x="110" y="62" font-family="Georgia,serif" font-size="6.5" font-weight="400" fill="rgba(255,255,255,0.35)" text-anchor="middle" letter-spacing="2.5">SEA POINT · CAPE TOWN</text>
+</svg>
+        <p>A relaxed Cape Town meeting place for sunlit breakfasts, sushi on the deck and cocktails near the Atlantic. Located at 313 Beach Road, Sea Point.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/Strolla-1664641040456249/"
+             target="_blank" rel="noopener noreferrer"
+             class="footer-social-link"
+             aria-label="Strolla on Facebook">f</a>
+          <a href="https://www.instagram.com/StrollaCT/"
+             target="_blank" rel="noopener noreferrer"
+             class="footer-social-link"
+             aria-label="Strolla on Instagram">in</a>
+          <a href="https://www.twitter.com/StrollaCT"
+             target="_blank" rel="noopener noreferrer"
+             class="footer-social-link"
+             aria-label="Strolla on Twitter">✕</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="#menu" onclick="switchTab('breakfast')">Breakfast &amp; Brunch</a></li>
+          <li><a href="#menu" onclick="switchTab('mains')">Lunch &amp; Mains</a></li>
+          <li><a href="#menu" onclick="switchTab('sushi')">Sushi</a></li>
+          <li><a href="#menu" onclick="switchTab('cocktails-menu')">Cocktails &amp; Drinks</a></li>
+          <li><a href="#menu" onclick="switchTab('kids')">Kids Menu</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Visit Us</h4>
+        <p>
+          313 Beach Road<br>
+          Sea Point, 8001<br>
+          Cape Town<br>
+          South Africa
+        </p>
+        <ul style="margin-top:1rem;">
+          <li><a href="tel:+27214307778">021 430 7778</a></li>
+          <li><a href="mailto:info@strolla.co.za">info@strolla.co.za</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Hours</h4>
+        <ul>
+          <li><a>Café: 7:00 – 19:00</a></li>
+          <li><a>Restaurant: 7:00 – 23:00</a></li>
+          <li><a>Bar: 11:00 – 23:00</a></li>
+        </ul>
+        <div style="margin-top:1.5rem;">
+          <a href="https://www.dineplan.com/widgetframe/MwKyFghb"
+             target="_blank" rel="noopener noreferrer"
+             class="btn btn-primary btn-sm">Book a Table</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Strolla Restaurant &amp; Bar. All rights reserved.</p>
+      <p>313 Beach Road, Sea Point, Cape Town &nbsp;·&nbsp; Designed with care for Sea Point hospitality.</p>
+    </div>
+  </div>
+</footer>
+
+
+<!-- MOBILE FLOATING BOOKING CTA -->
+<div class="mobile-book-cta" aria-hidden="true">
+  <a href="https://www.dineplan.com/widgetframe/MwKyFghb"
+     target="_blank" rel="noopener noreferrer"
+     aria-label="Book a table at Strolla Sea Point">
+    Book a Table
+    <span>Reserve in seconds</span>
+  </a>
+</div>
+
+
+<!-- ════════════════════════════════════════
+     JAVASCRIPT
+════════════════════════════════════════ -->
+<script>
+  // ── Header scroll behaviour ──────────────
+  const header = document.getElementById('site-header');
+  const heroBg = document.getElementById('heroBg');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 60) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  }, { passive: true });
+
+  // Hero bg zoom on load
+  window.addEventListener('load', () => {
+    heroBg && heroBg.classList.add('loaded');
+  });
+
+  // ── Mobile hamburger ──────────────────────
+  const hamburger = document.getElementById('hamburger');
+  const mobileNav = document.getElementById('mobile-nav');
+  const mobileLinks = document.querySelectorAll('.mobile-link');
+
+  hamburger.addEventListener('click', () => {
+    const isOpen = mobileNav.classList.contains('open');
+    mobileNav.classList.toggle('open');
+    hamburger.classList.toggle('open');
+    hamburger.setAttribute('aria-expanded', !isOpen);
+    mobileNav.style.display = isOpen ? 'none' : 'block';
+  });
+
+  mobileLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      mobileNav.classList.remove('open');
+      hamburger.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+      mobileNav.style.display = 'none';
+    });
+  });
+
+  // ── Scroll Reveal ─────────────────────────
+  const reveals = document.querySelectorAll('.reveal');
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+
+  reveals.forEach(el => revealObserver.observe(el));
+
+  // ── Menu Tabs ─────────────────────────────
+  const tabs = document.querySelectorAll('.menu-tab');
+  const panels = document.querySelectorAll('.menu-panel');
+
+  function switchTab(tabId) {
+    tabs.forEach(t => {
+      const isActive = t.dataset.tab === tabId;
+      t.classList.toggle('active', isActive);
+      t.setAttribute('aria-selected', isActive);
+    });
+    panels.forEach(p => {
+      p.classList.toggle('active', p.id === `panel-${tabId}`);
+    });
+  }
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => switchTab(tab.dataset.tab));
+  });
+
+  // ── Smooth anchor links ───────────────────
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        const offset = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--header-h'));
+        const top = target.getBoundingClientRect().top + window.scrollY - offset;
+        window.scrollTo({ top, behavior: 'smooth' });
+      }
+    });
+  });
+
+  // ── Smart image loader ────────────────────
+  // Tries fetch→blob to bypass CSP img-src restrictions in preview environments.
+  // In production browsers, images load normally via src; this is a no-op there.
+  (async () => {
+    const imgs = document.querySelectorAll('img[src*="unsplash"]');
+    for (const img of imgs) {
+      if (img.complete && img.naturalWidth > 0) continue; // already loaded
+      try {
+        const res = await fetch(img.src);
+        if (!res.ok) throw new Error('fetch failed');
+        const blob = await res.blob();
+        const url = URL.createObjectURL(blob);
+        img.src = url;
+        img.style.opacity = '1';
+      } catch {
+        // Image unavailable – CSS gradient fallback is already showing
+        img.style.display = 'none';
+      }
+    }
+  })();
+
+  // ── Active nav highlighting ───────────────
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.header-nav a');
+
+  const sectionObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        navLinks.forEach(link => {
+          link.style.color = link.getAttribute('href') === `#${entry.target.id}`
+            ? 'white'
+            : 'rgba(255,255,255,0.7)';
+        });
+      }
+    });
+  }, { threshold: 0.3 });
+
+  sections.forEach(section => sectionObserver.observe(section));
+</script>
+
+</body>
+</html>
